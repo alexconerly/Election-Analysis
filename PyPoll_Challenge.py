@@ -97,7 +97,6 @@ with open(file_to_save, "w") as txt_file:
         temp_votes_county = county_votes[county_name]
         # 6c: Calculate the percent of total votes for the county.
         county_votes_percentage = float(temp_votes_county)/float(total_votes) * 100
-
          # 6d: Print the county results to the terminal.
         county_results = (f"{county_name}: {county_votes_percentage:.1f}% ({temp_votes_county:,})\n")
         print(county_results, end="")
@@ -124,11 +123,9 @@ with open(file_to_save, "w") as txt_file:
         # Retrieve vote count and percentage
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
-        candidate_results = (
-            f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+        candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
-        # Print each candidate's voter count and percentage to the
-        # terminal.
+        # Print each candidate's voter count and percentage to the terminal.
         print(candidate_results)
         #  Save the candidate results to our text file.
         txt_file.write(candidate_results)

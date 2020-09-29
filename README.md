@@ -38,8 +38,21 @@ By utilizing the python script, the following results were easily generated:
 
 As evidenced by the results of this project, it is clear the python script was able to flawlessly perform all the necessary steps of extracting the dataset, processing it, and outputting the desired results into a concise, readable format.  However, the potential use of this code extends well beyond the confines of one single election audit.  In fact, the code script is flexible enough to be used for any election, as the variables in the code are entirely customizable to accommodate accordingly.
 
-For example, the code for identifying the number of votes for each candidate in this project employed the use of conditional statements and "for loops", which accurately tallied the candidates votes, without regard to the number of candidates, their names, their order within the dataset, or the number of ballots cast.  This means it could be applied to any candidates, regardles of the size of the ballots.
+For example, the code for identifying the number of votes for each candidate in this project employed the use of initializing accumulating variables, perforning conditional statements, running "for loops", which, together, accurately tallied and assigned each candidates' votes automatically, without the user having to specify the number of candidates, their names, their order within the dataset, or the number of ballots cast.  We simply had to ensure the for loop focused on the appropriate row in the dataset when running the loop and the rest of our code was able to output the desired results.  This means the code could be applied to any candidates in any election, regardless of the number of candidates, their names, or the size of the ballots.
 
-As another example of how flexible this dataset can be, the code script is also adaptable to tallying the totals and percentages of more than just candidates.  In fact, it is entirely customizable for tallying any variable of choice.  For instance, the process of tallying the total, percentage, and highest number of votes for each candidate in this project was exactly the same process as was used to find the same result criterias for the counties.  We only had to adjust the variables accordingly.
+![](Resources/row_example_png.png)
 
-In conclusion, it clear this python script is a viable and flexible tool for calculating, processing, and displaying the results of any election audit.
+As another example of how flexible this code can be, the script is also adaptable to tallying the totals and percentages of more than just candidates.  In fact, it is entirely customizable for tallying any variable of choice.  For instance, the process of calculating the total, percentage, and highest number of votes for each candidate in this project was exactly the same process as was used to find the same result criterias for each county in the dataset.  We only had to adjust the variables accordingly.  To illustrate, in the following two screenshots, the first displaying a portion of code analyzing candidate data and the second displaying a poriton analyzing counties, we can see that although each code is customized according to the variables at hand, the code format is essentially unchanged and is able to conveniently perform the same overall function to each variable:
+
+---------------------------------------------------
+
+![](Resources/candidate_png.png)
+
+---------------------------------------------
+
+![](Resources/county_png.png)
+
+----------------------------------------------------
+
+
+In conclusion, it clear this python script is a viable and flexible tool for calculating, processing, and displaying the results of an election audit.  Provided there is access to an extractable tabulated dataset, the customizability and efficiency of this code make it an excellent source for automating election results analyses which can be easily adopted for use in other congressional and senatorial districts, as well as local elections.
