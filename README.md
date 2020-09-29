@@ -2,7 +2,7 @@
 ------------------------------------------------------
 
 ## Overview of the Election Audit
-The purpose of this project was to assist a Colorado Board of Elections employee named "Tom" in succesfully creating a code using python programming language to automate an election audit so that this script may be verified for use in other congressional and senatorial districts, as well as local elections.  In order to perform the audit, the script was written in Visual Studio Code and a myriad of coding techniques were applied to extract the election data from a csv file, perform calculations to reveal pertinant election results for each candidate and county, and to store these pertinent results onto a separate text file.  Consequently, this text file allowed for a concise display of the audit's results so that it may be well-suited to share with the associated election committee.
+The purpose of this project was to assist a Colorado Board of Elections employee named "Tom" in succesfully creating a code, using python programming language, to automate an election audit so that this script may be verified for potential use in other congressional and senatorial districts, as well as local elections.  In order to perform the audit, the script was written in Visual Studio Code and a myriad of coding techniques were applied to extract the election data from a csv file, perform calculations to reveal pertinant election results for each candidate and county, and to store these pertinent results onto a separate text file.  Consequently, this text file allowed for a concise display of the audit's results so that it may be well-suited to share with the associated election committee.
 
 ----------------------------------------
 
